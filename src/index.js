@@ -1,6 +1,5 @@
 import './style.css';
 
-//const weatherUrl = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/Salt%20Lake%20City%2C%20UT/next7days?unitGroup=metric&elements=datetime%2CdatetimeEpoch%2Cname%2Ctempmax%2Ctempmin%2Ctemp%2Cfeelslike%2Chumidity%2Cprecip%2Cprecipprob%2Cprecipcover%2Cpreciptype%2Cwinddir&include=current%2Cdays%2Chours&key=AKVPZ7RSYDECTLH7KC5NJJZYZ&contentType=json';
 const urlBase = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/OURLOCNAME/next7days?unitGroup=OURUNITS&elements=datetime%2CdatetimeEpoch%2Cname%2Ctempmax%2Ctempmin%2Ctemp%2Cfeelslike%2Chumidity%2Cprecip%2Cprecipprob%2Cprecipcover%2Cpreciptype%2Cwinddir&include=current%2Cdays%2Chours&key=AKVPZ7RSYDECTLH7KC5NJJZYZ&contentType=json';
 const unitOptions = ['metric', 'us'];
 
