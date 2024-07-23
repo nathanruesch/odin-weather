@@ -4,5 +4,66 @@
 }
 
 :root {
+    --weatherInfoColor: rgb(255, 255, 255);
+    --weatherInfoBG: rgba(0, 0, 0, 0.2);
+}
 
+body {
+    background-image: url('https://plus.unsplash.com/premium_photo-1676296353771-7358fae4f292?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#search-container {
+    height: 100px;
+}
+
+#unit-button {
+    margin-right: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#weather-container {
+    width: 400px;
+    padding: 15px;
+
+    gap: 12px;
+
+    justify-self: center;
+
+    margin-right: auto;
+    margin-left: 60px;
+
+    color: var(--weatherInfoColor);
+    background-color: var(--weatherInfoBG);
+}
+
+.flex-row {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.weather-child {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-container {
+    margin-left: auto;
+    padding-top: 10px;
+    margin-right: 10px;
+}
+
+#weather-location {
+    font-size: 2.2em;
 }
